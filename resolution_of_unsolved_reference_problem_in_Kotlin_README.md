@@ -3,9 +3,13 @@
 
 // Problem example in below
 
+
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+    
         super.onCreate(savedInstanceState)
+        
         setContentView(R.layout.activity_main)
     }
     fun plus_button(view: View){
