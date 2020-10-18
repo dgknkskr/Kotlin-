@@ -4,15 +4,15 @@
 // Problem example in below
 
 
-class MainActivity : AppCompatActivity() {
+    class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-    
-        super.onCreate(savedInstanceState)
-        
-        setContentView(R.layout.activity_main)
-    }
-    fun plus_button(view: View){
+        override fun onCreate(savedInstanceState: Bundle?) {
+
+            super.onCreate(savedInstanceState)
+
+            setContentView(R.layout.activity_main)
+        }
+        fun plus_button(view: View){
 
         var num1 = editText.text  // editText shown as red
                                   // I created editText in Design-Side(Android Studio) however Console is showing " editText is unresolved reference".And then I can                                     // not use this textbox in my codes.
@@ -39,18 +39,18 @@ plugins {
     id 'kotlin-android'
     
     id 'kotlin-android-extensions'  // add this here***
-}
+    }
 
-android {
+    android {
     ...
-}
+    }
 
-dependencies {
+    dependencies {
     ...
     
-}
+    }
 
-apply plugin: 'idea'    // add this here***
+    apply plugin: 'idea'    // add this here***
 
 
 // Come to editText(example) and click on it and click " import this "
@@ -61,20 +61,20 @@ apply plugin: 'idea'    // add this here***
 
 //FOR JAVA 
 
-apply plugin: 'com.android.application'
+    apply plugin: 'com.android.application'
 
-apply plugin: 'kotlin-android' 
+    apply plugin: 'kotlin-android' 
+    
+    apply plugin: 'kotlin-android-extensions' // add this here***
 
-apply plugin: 'kotlin-android-extensions' // add this here***
-
-android {
+    android {
     ...
-}
+    }
 
-dependencies {
+    dependencies {
     ...
-}
-apply plugin: 'idea' // add this here***
+    }
+    apply plugin: 'idea' // add this here***
 
 // Come to editText(example) and click on it and click " import this "
 // Problem solved.
