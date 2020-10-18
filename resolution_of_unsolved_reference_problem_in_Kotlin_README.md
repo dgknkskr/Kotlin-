@@ -47,8 +47,11 @@ android {
 
 dependencies {
     ...
+    
 }
+
 apply plugin: 'idea'    // add this here***
+
 
 // Come to editText(example) and click on it and click " import this "
 // Problem solved.
