@@ -15,7 +15,7 @@
         fun plus_button(view: View){
 
         var num1 = editText.text  // editText shown as red
-                                  // I created editText in Design-Side(Android Studio) however Console is showing " editText is unresolved reference".And then I can                                     // not use this textbox in my codes.
+                                  // I created editText in Design-Side(Android Studio) however Console is showing " editText is unresolved reference".And then I can // not use this textbox in my codes.
     }
 }
 
