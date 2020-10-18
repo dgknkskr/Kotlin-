@@ -18,14 +18,18 @@ class MainActivity : AppCompatActivity() {
 // Solution:
 
 // open the " build.gradle " file in app file(on the left side in android studio, under the test file) You're just adding 2 blocks of code.
+
 // 1- Write two codes i gave below in build.gradle(app)
+
 // 2- go to Terminal and write " grandle idea " and click enter
+
 // 3- Then click to " sync now " in notification shown 
 
 
 //FOR KOTLİN
 
 plugins {
+
     id 'com.android.application'
     
     id 'kotlin-android'
